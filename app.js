@@ -10,14 +10,14 @@ let size = 36
 
 const sizeUpFun = () => {
   if (size < 40) {
-    size = size + 1
+    size++
   }
   text.style.fontSize = size + 'px'
 }
 
 const sizeDownFun = () => {
   if (size > 28){
-    size = size - 1
+    size--
   }
   text.style.fontSize = size + 'px'
 }
